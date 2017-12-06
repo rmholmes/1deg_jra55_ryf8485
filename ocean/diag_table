@@ -142,6 +142,9 @@ MOM5 JRA-RYF
 "ocean_model","neutral_gm_on_nrho_temp","neutral_gm_on_nrho_temp", "ocean_wmass","all",.true.,"none",2
 "ocean_model","temp_vdiffuse_k33_on_nrho","temp_vdiffuse_k33_on_nrho", "ocean_wmass","all",.true.,"none",2
 
+# Mixdownslope (on in ACCESS-OM2):
+"ocean_model","mixdownslope_temp_on_nrho","mixdownslope_temp_on_nrho", "ocean_wmass","all",.true.,"none",2
+
 # Temperature-binned transports
 "ocean_model","tx_trans_nrho","tx_trans_nrho",        "ocean_wmass","all",.true.,"none",2
 "ocean_model","ty_trans_nrho","ty_trans_nrho",        "ocean_wmass","all",.true.,"none",2
@@ -176,5 +179,16 @@ MOM5 JRA-RYF
 "ocean_model","neutral_diffusion_temp","neutral_diffusion_temp", "ocean_heat","all",.true.,"none",2
 "ocean_model","neutral_gm_temp","neutral_gm_temp", "ocean_heat","all",.true.,"none",2
 "ocean_model","temp_vdiffuse_k33","temp_vdiffuse_k33", "ocean_heat","all",.true.,"none",2
+"ocean_model","mixdownslope_temp","mixdownslope_temp", "ocean_heat","all",.true.,"none",2
 
+# Other possible terms (these are all zero...):
+# "ocean_model","temp_sigma_diff","temp_sigma_diff", "ocean_heat","all",.true.,"none",2
+# "ocean_model","temp_xlandmix","temp_xlandmix", "ocean_heat","all",.true.,"none",2
+# "ocean_model","temp_xlandinsert","temp_xlandinsert", "ocean_heat","all",.true.,"none",2
+# "ocean_model","temp_runoffmix","temp_runoffmix", "ocean_heat","all",.true.,"none",2
+# "ocean_model","temp_calvingmix","temp_calvingmix", "ocean_heat","all",.true.,"none",2
+# "ocean_model","geo_heat","geo_heat", "ocean_heat","all",.true.,"none",2
+
+# Other terms that are groups:
+"ocean_model","temp_vdiffuse_impl","temp_vdiffuse_impl", "ocean_heat","all",.true.,"none",2
 
