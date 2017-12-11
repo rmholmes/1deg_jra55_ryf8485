@@ -3,10 +3,10 @@ MOM5 JRA-RYF
 
 #output files
 "ocean_month",      1,  "months", 1, "days", "time",
-"ocean",            12,  "months", 1, "days", "time",
-"ocean_heat",      12,  "months", 1, "days", "time",
-"ocean_snap",      12,  "months", 1, "days", "time",
-"ocean_wmass",     12,  "months", 1, "days", "time",
+"ocean",            1,  "months", 1, "days", "time",
+"ocean_heat",      1,  "months", 1, "days", "time",
+"ocean_snap",      1,  "months", 1, "days", "time",
+"ocean_wmass",     1,  "months", 1, "days", "time",
 "ocean_grid",      -1,  "months", 1, "days", "time",
 "ocean_scalar",     1,  "months", 1, "days", "time",
 
@@ -38,16 +38,17 @@ MOM5 JRA-RYF
 "ocean_model","v","v",                  "ocean","all",.true.,"none",2
 "ocean_model","wt","wt",                "ocean","all",.true.,"none",2
 "ocean_model","dzt","dzt",              "ocean","all",.true.,"none",2
-"ocean_model","pot_rho_0","pot_rho_0",  "ocean","all",.true.,"none",2
+#"ocean_model","pot_rho_0","pot_rho_0",  "ocean","all",.true.,"none",2
 "ocean_model","pot_rho_2","pot_rho_2",  "ocean","all",.true.,"none",2
-"ocean_model","tx_trans","tx_trans",    "ocean","all",.true.,"none",2
-"ocean_model","ty_trans","ty_trans",    "ocean","all",.true.,"none",2
+#"ocean_model","tx_trans","tx_trans",    "ocean","all",.true.,"none",2
+#"ocean_model","ty_trans","ty_trans",    "ocean","all",.true.,"none",2
 #"ocean_model","ty_trans_gm","ty_trans_gm",    "ocean","all",.true.,"none",2
 "ocean_model","tx_trans_rho","tx_trans_rho","ocean","all",.true.,"none",2
 "ocean_model","ty_trans_rho","ty_trans_rho","ocean","all",.true.,"none",2
 "ocean_model","ty_trans_rho_gm","ty_trans_rho_gm","ocean","all",.true.,"none",2
-"ocean_model","temp_xflux_adv","temp_xflux_adv","ocean","all",.true.,"none",2
-"ocean_model","temp_yflux_adv","temp_yflux_adv","ocean","all",.true.,"none",2
+"ocean_model","ty_trans_rho_submeso","ty_trans_rho_submeso","ocean","all",.true.,"none",2
+#"ocean_model","temp_xflux_adv","temp_xflux_adv","ocean","all",.true.,"none",2
+#"ocean_model","temp_yflux_adv","temp_yflux_adv","ocean","all",.true.,"none",2
 "ocean_model","diff_cbt_t","diff_cbt_t",    "ocean","all",.true.,"none",2
 
 
